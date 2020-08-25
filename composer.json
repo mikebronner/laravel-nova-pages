@@ -1,0 +1,57 @@
+{
+    "name": "genealabs/laravel-nova-pages",
+    "description": "Drop-in functionality for custom pages in Laravel and Nova.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "proprietary",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        },
+        {
+            "type": "path",
+            "url": "../nova-gutenberg"
+        },
+        {
+            "type": "path",
+            "url": "../laravel-overridable-model"
+        }
+    ],
+    "require": {
+        "cviebrock/eloquent-sluggable": "^7.0",
+        "genealabs/laravel-overridable-model": "*@dev",
+        "genealabs/nova-gutenberg": "*@dev",
+        "illuminate/support": "^7.0",
+        "laravel/nova": "^3.0",
+        "symfony/thanks": "^1.2"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.0",
+        "phpmd/phpmd": "^2.8",
+        "phpstan/phpstan": "^0.12.33",
+        "phpunit/phpunit": "^8.5",
+        "sebastian/phpcpd": "^5.0",
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "GeneaLabs\\LaravelNovaPages\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GeneaLabs\\LaravelNovaPages\\Providers\\Service",
+                "GeneaLabs\\LaravelNovaPages\\Providers\\Nova"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
