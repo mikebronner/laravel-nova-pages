@@ -15,7 +15,7 @@ your app, like getting this package to work with multi-tenancy, etc.
 1. `composer require genealabs/laravel-nova-pages`
 2. If you need to customize the migrations:
   ```sh
-  php vendor:publish --provider=GeneaLabs\LaravelNovaPages\Providers\Service.php --tag=migrations
+  php artisan vendor:publish --provider="GeneaLabs\\LaravelNovaPages\\Providers\\Service" --tag=migrations
   ```
 3. Customize migrations as necessary.
 4. If you need to customize the Page class, create a new file at
