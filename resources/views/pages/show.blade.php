@@ -8,7 +8,7 @@
     @endif
 
     @if ($page->layout === "full-width")
-        <div class="relative rounded-lg bg-white h-screen overflow-hidden mx-4 sm:mx-6 lg:mx-8 mb-20">
+        <div class="relative rounded-lg bg-white overflow-hidden">
     @endif
 
         {!! $page->content !!}
