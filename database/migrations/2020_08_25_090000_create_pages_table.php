@@ -16,6 +16,7 @@ class CreatePagesTable extends Migration
             $table->dateTime("published_at")->nullable();
 
             $table->text("content");
+            $table->string("layout")->default("standard");
             $table->string("slug");
             $table->string("title");
 

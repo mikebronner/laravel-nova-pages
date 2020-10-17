@@ -8,8 +8,8 @@ use Illuminate\Http\Request;
 use Laravel\Nova\Fields\BelongsTo;
 use Laravel\Nova\Fields\DateTime;
 use Laravel\Nova\Fields\ID;
+use Laravel\Nova\Fields\Select;
 use Laravel\Nova\Fields\Text;
-use Laravel\Nova\Fields\Textarea;
 use Laravel\Nova\Resource as NovaResource;
 
 class Page extends NovaResource
@@ -37,6 +37,13 @@ class Page extends NovaResource
                     using your own name.")
                 ->sortable()
                 ->rules("required"),
+            Select::make("Layout")
+                ->rules("required")
+                ->displayUsingLabels()
+                ->options([
+                    "standard" => "Standard",
+                    "full-width" => "Full-Width",
+                ]),
             Gutenberg::make("Content")
                 ->help("Here you can provide a little insight into the archive,
                     describe its goals, its history, etc. Viewers will see this

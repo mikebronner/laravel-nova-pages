@@ -24,7 +24,9 @@
         "cviebrock/eloquent-sluggable": "^8.0",
         "genealabs/laravel-overridable-model": "^0.1.0",
         "genealabs/nova-gutenberg": "^0.4.8",
+        "illuminate/routing": "^8.0",
         "illuminate/support": "^8.0",
+        "illuminate/view": "^8.0",
         "laravel/nova": "^3.9",
         "symfony/thanks": "^1.2"
     },

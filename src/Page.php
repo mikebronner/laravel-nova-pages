@@ -20,6 +20,7 @@ class Page extends Model implements OverridableModel
     protected $fillable = [
         "author_id",
         "content",
+        "layout",
         "published_at",
         "slug",
         "title",
