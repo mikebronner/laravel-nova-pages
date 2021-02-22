@@ -10,7 +10,7 @@ use Laravel\Nova\Resource;
 
 class User extends Resource
 {
-    public static $model = 'App\\User';
+    public static $model = 'App\Models\User';
     public static $title = 'name';
     public static $search = [
         'id', 'name', 'email',
