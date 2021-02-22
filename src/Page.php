@@ -2,7 +2,8 @@
 
 namespace GeneaLabs\LaravelNovaPages;
 
-use App\User;
+// TODO: allow app\user as well
+use App\Models\User;
 use Cviebrock\EloquentSluggable\Sluggable;
 use GeneaLabs\LaravelOverridableModel\Contracts\OverridableModel;
 use GeneaLabs\LaravelOverridableModel\Traits\Overridable;
