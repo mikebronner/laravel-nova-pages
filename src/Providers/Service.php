@@ -16,7 +16,7 @@ class Service extends ServiceProvider
         //     // Posts::class,
         // ]);
 
-        if (! Page::ignoreMigrations()) {
+        if (Page::runsMigrations()) {
             $this->loadMigrationsFrom(__DIR__ . '/../../database/migrations');
         }
 
