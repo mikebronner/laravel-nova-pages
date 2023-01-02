@@ -22,12 +22,12 @@
     ],
     "require": {
         "cviebrock/eloquent-sluggable": "^8.0",
-        "genealabs/laravel-overridable-model": "^0.1.0",
-        "genealabs/nova-gutenberg": "^0.4.8",
-        "illuminate/routing": "^8.0",
-        "illuminate/support": "^8.0",
-        "illuminate/view": "^8.0",
-        "laravel/nova": "^3.9",
+        "genealabs/laravel-overridable-model": "*",
+        "genealabs/nova-gutenberg": "*",
+        "illuminate/routing": "^9.0",
+        "illuminate/support": "^9.0",
+        "illuminate/view": "^9.0",
+        "laravel/nova": "*",
         "symfony/thanks": "^1.2"
     },
     "autoload": {
