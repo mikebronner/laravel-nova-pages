@@ -21,7 +21,7 @@
         }
     ],
     "require": {
-        "cviebrock/eloquent-sluggable": "^8.0",
+        "cviebrock/eloquent-sluggable": "*",
         "genealabs/laravel-overridable-model": "*",
         "genealabs/nova-gutenberg": "*",
         "illuminate/routing": "^9.0",
