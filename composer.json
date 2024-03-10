@@ -24,11 +24,20 @@
         "cviebrock/eloquent-sluggable": "*",
         "genealabs/laravel-overridable-model": "*",
         "genealabs/nova-gutenberg": "*",
-        "illuminate/routing": "^9.0",
-        "illuminate/support": "^9.0",
-        "illuminate/view": "^9.0",
+        "illuminate/routing": "^10.0",
+        "illuminate/support": "^10.0",
+        "illuminate/view": "^10.0",
         "laravel/nova": "*",
         "symfony/thanks": "^1.2"
+    },
+    "require-dev": {
+        "brianium/paratest": "^7.4",
+        "laravel/dusk": "^7.4",
+        "laravel/sail": "^1.18",
+        "mockery/mockery": "^1.4.4",
+        "nunomaduro/collision": "^7.0",
+        "phpunit/phpunit": "^10.0",
+        "valmar-holdings/laravel-linter": "dev-main@dev"
     },
     "autoload": {
         "psr-4": {
