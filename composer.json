@@ -10,14 +10,6 @@
         {
             "type": "composer",
             "url": "https://nova.laravel.com"
-        },
-        {
-            "type": "path",
-            "url": "../nova-gutenberg"
-        },
-        {
-            "type": "path",
-            "url": "../laravel-overridable-model"
         }
     ],
     "require": {
