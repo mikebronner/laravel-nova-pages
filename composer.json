@@ -15,11 +15,10 @@
     "require": {
         "cviebrock/eloquent-sluggable": "*",
         "genealabs/laravel-overridable-model": "*",
-        "genealabs/nova-gutenberg": "*",
         "illuminate/routing": "^10.0",
         "illuminate/support": "^10.0",
         "illuminate/view": "^10.0",
-        "laravel/nova": "*",
+        "laravel/nova": "^4.0",
         "symfony/thanks": "^1.2"
     },
     "require-dev": {
