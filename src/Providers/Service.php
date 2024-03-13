@@ -9,7 +9,7 @@ class Service extends ServiceProvider
 {
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__ . "/../../views", "laravel-nova-pages");
+        $this->loadViewsFrom(__DIR__ . "/../../resources/views", "laravel-nova-pages");
         $this->loadRoutesFrom(__DIR__ . '/../../routes/web.php');
         // $this->loadViewComponentsAs('laravel-nova-blog', [
         //     // Post::class,
