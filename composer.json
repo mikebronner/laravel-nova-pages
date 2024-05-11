@@ -15,9 +15,9 @@
     "require": {
         "cviebrock/eloquent-sluggable": "*",
         "genealabs/laravel-overridable-model": "*",
-        "illuminate/routing": "^11.0",
-        "illuminate/support": "^11.0",
-        "illuminate/view": "^11.0",
+        "illuminate/routing": "^10.0|^11.0",
+        "illuminate/support": "^10.0|^11.0",
+        "illuminate/view": "^^10.0|11.0",
         "laravel/nova": "^4.0",
         "symfony/thanks": "^1.2"
     },
