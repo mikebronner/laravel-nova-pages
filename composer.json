@@ -13,6 +13,7 @@
         }
     ],
     "require": {
+        "php": "^8.2",
         "cviebrock/eloquent-sluggable": "*",
         "genealabs/laravel-overridable-model": "*",
         "illuminate/routing": "^10.0|^11.0|^12.0",

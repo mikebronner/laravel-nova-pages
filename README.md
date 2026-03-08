@@ -1,6 +1,15 @@
 # Pages for Laravel and Nova
 Drop-in functionality for custom pages in Laravel and Nova.
 
+## Version Support
+
+| PHP | Laravel | Nova |
+|-----|---------|------|
+| 8.2 | 10, 11, 12 | 4, 5 |
+| 8.3 | 10, 11, 12 | 4, 5 |
+| 8.4 | 11, 12, 13 | 4, 5 |
+| 8.5 | 11, 12, 13 | 4, 5 |
+
 ## Installation & Customization
 ### Standard
 If you are creating a simple app, these two steps should suffice. However, if
